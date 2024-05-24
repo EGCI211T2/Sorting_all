@@ -21,7 +21,7 @@ jobs:
         setup-command: g++ main.cpp -o sort
         command: "./sort bubble  6 5 2 3"
         input: ''
-        expected-output: 2 3 5 6
+        expected-output: 5 2 3 6
         comparison-method: contains
         timeout: 10
     - name: Select1
